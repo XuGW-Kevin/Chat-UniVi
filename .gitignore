@@ -24,3 +24,5 @@ ckpts*
 
 .ipynb_checkpoints
 *.ipynb
+models/*
+data/*
