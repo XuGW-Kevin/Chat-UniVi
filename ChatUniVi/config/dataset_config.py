@@ -1,6 +1,6 @@
 Pretrain = {
-    "chat_path": "${PATH}/CC3M-595K/chat.json",
-    "CC3M": "${PATH}/CC3M-595K",
+    "chat_path": "./data/CC3M-595K/chat.json",
+    "CC3M": "./data/CC3M-595K",
 }
 
 VIT = {
@@ -16,18 +16,18 @@ MIMIC_imageonly = {
 }
 
 COCO_CAP = {
-    "chat_path": "${PATH}/COCO/coco_cap_chat.json",
-    "COCO2014": "${PATH}/COCO2014/train2014",
+    "chat_path": "./data/COCO/coco_cap_chat.json",
+    "COCO2014": "./data/COCO/train2014",
 }
 
 COCO_REG = {
-    "chat_path": "${PATH}/COCO/coco_reg_chat.json",
-    "COCO2014": "${PATH}/COCO2014/train2014",
+    "chat_path": "./data/COCO/coco_reg_chat.json",
+    "COCO2014": "./data/COCO/train2014",
 }
 
 COCO_REC = {
-    "chat_path": "${PATH}/COCO/coco_rec_chat.json",
-    "COCO2014": "${PATH}/COCO2014/train2014",
+    "chat_path": "./data/COCO/coco_rec_chat.json",
+    "COCO2014": "./data/COCO/train2014",
 }
 
 VIDEO = {
