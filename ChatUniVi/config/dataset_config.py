@@ -4,15 +4,15 @@ Pretrain = {
 }
 
 VIT = {
-    "chat_path": "${PATH}/llava_instruct_150k.json",
-    "COCO2017": "${PATH}/COCO2017/train2017",
+    "chat_path": "./data/VIT/llava_instruct_150k.json",
+    "COCO2017": "./data/VIT/train2017",
 }
 
 MIMIC_imageonly = {
-    "chat_path": "${PATH}/MIMIC-IT-imageonly.json",
-    "CDG": "${PATH}/CGD/images",
-    "LA": "${PATH}/LA/images",
-    "SD": "${PATH}/SD/images",
+    "chat_path": "./data/MIMIC_imageonly/MIMIC-IT-imageonly.json",
+    "CDG": "./data/MIMIC_imageonly/CGD/images",
+    "LA": "./data/MIMIC_imageonly/LA/images",
+    "SD": "./data/MIMIC_imageonly/SD/images",
 }
 
 COCO_CAP = {
@@ -31,22 +31,22 @@ COCO_REC = {
 }
 
 VIDEO = {
-    "chat_path": "${PATH}/video_chat.json",
-    "VIDEO": "${PATH}/Activity_Videos",
+    "chat_path": "./data/VIDEO/video_chat.json",
+    "VIDEO": "./data/VIDEO/Activity_Videos",
 }
 
 SQA = {
-    "chat_path": "${PATH}/llava_train_QCM-LEA.json",
-    "ScienceQA": "${PATH}/scienceqa/train",
+    "chat_path": "./data/sqa/llava_train_QCM-LEA.json",
+    "ScienceQA": "./data/sqa/train",
 }
 
 Pretrain_valley_llava = {
-    "chat_path": "${PATH}/valley_llavaimage.json",
-    "valley": "${PATH}/Data",
-    "llava": "${PATH}/Data",  # from llava v1.5
+    "chat_path": "./data/Pretrain_valley_llava/valley_llavaimage.json",
+    "valley": "./data/Pretrain_valley_llava/",
+    "llava": "./data/Pretrain_valley_llava/",
 }
 
 LLaVA = {
-    "chat_path": "${PATH}/llavaimage_tune.json",
-    "llava": "${PATH}/Data",  # from llava v1.5
+    "chat_path": "./data/LLaVA/llavaimage_tune.json",
+    "llava": "./data/LLaVA/", 
 }
